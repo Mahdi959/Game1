@@ -60,4 +60,4 @@ while keep_alive:
     screen.blit(shoot1, [200, pip[3]])
 
     pygame.display.update()
-
+    clock.tick(60)
