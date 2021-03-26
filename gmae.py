@@ -47,7 +47,7 @@ while keep_alive:
     elif keys[pygame.K_DOWN] and tuser < 540:
         tuser = tuser + 20
 
-    screen.blit(pygame.image.load('backgroundnd.jpg'), [0, 0])
+    screen.blit(pygame.image.load('background.jpg'), [0, 0])
     screen.blit(me, [user, tuser])
     screen.blit(shoot1, [pip[5], pip[0]])
     screen.blit(shoot1, [pip[4], pip[1]])
